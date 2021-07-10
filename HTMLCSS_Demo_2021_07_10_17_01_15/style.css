@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/*  the most specific rule will will */
+h1.matt-green  {
+  color: green;
+}
+
+/* This is how we call a class */
+.matt-green {
+  color: #00FF00;
+}
+
+/* this is how we call an id */
+#angieblue {
+  color: #00CDFF;
+}
+
+#div1 {
+  background-color: pink;
+}
+
+#div2 {
+  background-color: purple;
+}
+
+#div3{
+  background-color: red;
+}
+
+canvas {
+  display: block;
+}
