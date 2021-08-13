@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+	background-image: url("assets/background.jpg");
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+#startbutton{
+	min-width: 100px;
+	height: 50px;
+	margin-bottom: 150px;
+	text-transform: uppercase;
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 4px 5px 0px;
+	border-bottom: 2px solid;
+	border-right: 2px solid;
+	margin: 0;
+	position: absolute;
+	top: 45%;
+	tranform: translate(-1%, -3%);
+}
+
+#startbutton:hover{
+	background-color: lightgrey;
+	box-shadow: 3px 3px 1px;
+	border-bottom: 2px solid;
+	transform: translate(-1%, -1%);
+	transition: all 0.1s ease-in;
+}
+
+#startbutton:active{
+	box-shadow: none;
+	border-bottom-width: 2px;
+	transform: translate(3px, 4px);
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#endcontainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gamecontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.playercontainer{
+	width: 400px;
+	height: 320px;
+	margin: 20px;
+	text-transform: uppercase;
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+
+.playerinformation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.playerlogo{
+	margin-right: 10px;
+}
+
+.player1{
+	text-align: center;
+	/*color: grey;*/
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+}
+
+.gameselections{
+	display: flex;
+	justify-content: center;
+}
+
+.gameselection{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	width: 120px;
+	height: 120px;
+	box-shadow: 4px 5px 0px;
+	border-bottom: 2px solid;
+	border-right: 1px solid;
+	margin: 15px;
+	transform:  translate(-1%, -3%);
+}
+
+.gameselection:hover{
+	background-color: lightgrey;
+	box-shadow: 3px 3px 1px;
+	border-bottom: 2px solid;
+	transform: translate(1%, -1%);
+	transition: all 0.1s ease-in;
+}
+
+.gameselection:active{
+	box-shadow: none;
+	transform: translate(3px,4px);
+}
+
+.selection{
+	height: 50px;
+	width: 50px;
+}
+
+
+
+
+
+
+
+
+
